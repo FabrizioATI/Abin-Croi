@@ -1,0 +1,9 @@
+PATCH http://localhost:3001/api/v1/user/1
+Content-Type: application/json
+
+{
+  "lastName": "Faster",
+  "firstName": "Host",
+  "phoneNumber": 987654321,
+  "email": "Fatesr@gmail.com"
+}

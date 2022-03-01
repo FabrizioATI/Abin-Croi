@@ -1,0 +1,12 @@
+POST http://localhost:3001/api/v1/user/
+Content-Type: application/json
+
+{
+  "lastName": "Rodrigo",
+  "firstName": "Doe",
+  "phoneNumber": 123456789,
+  "email": "rodri@gmail.com",
+  "password": "fabrizio123",
+  "userJuridic": true,
+  "userNatural": false
+}

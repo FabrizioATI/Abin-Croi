@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/v1/user/
+Content-Type: application/json
+
+{
+  "content": "Aprender practicando es bueno, y mas con midudev",
+  "important": true
+}

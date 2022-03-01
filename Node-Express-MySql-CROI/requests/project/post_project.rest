@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/v1/project
+Content-Type: application/json
+
+{
+  "nameProject": "AbinKinds",
+  "descriptionProject": "En , Ingeniería química e Ingeniería ambiental",
+  "direction": "Av. Goyeneche 3116",
+  "fileURL": "https://s2.q4cdn.com/498544986/files/doc_downloads/test.pdf",
+  "nameEnterprise": "Abin Incubator",
+  "category": "Agua",
+  "imgURL": "https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_image__small/public/temas/agua.jpg",
+  "videURL": "https://youtu.be/T_j60n1zgu0",
+  "typeFinacing": "Action"
+}

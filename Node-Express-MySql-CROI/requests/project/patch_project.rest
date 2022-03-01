@@ -1,0 +1,12 @@
+PATCH http://localhost:3001/api/v1/project/4
+Content-Type: application/json
+
+ {
+    "nameProject": "CroiAbin Editado 1",
+    "descriptionProject": "En , Ingeniería química e Ingeniería ambiental Editado",
+    "direction": "Av. Goyeneche 3116 Editado",
+    "fileURL": "https://s2.q4cdn.com/498544986/files/doc_downloads/test.pdf",
+    "nameEnterprise": "Abin Incubator",
+    "state": true,
+    "imgURL": "https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_image__small/public/temas/agua.jpg"
+  }
