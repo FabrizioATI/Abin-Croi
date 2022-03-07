@@ -31,18 +31,26 @@ const NavBar = () => {
               Nosotros
             </a>
           </Link>
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-white mr-4">
-            Proyectos
-          </a>
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-white mr-4">
-            Financiar mi proyecto
-          </a>
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-white mr-4">
-            User
-          </a>
-          <a href="#responsive-header" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-900 hover:bg-white mt-4 lg:mt-0">
-            Cerrar Sesion
-          </a>
+          <Link href="/Proyectos">
+            <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded text-gray-50 hover:bg-blue-800 hover:bg-gray-900">
+              Proyectos
+            </a>
+          </Link>
+          <Link href="/financiarproyecto">
+            <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded text-gray-50 hover:bg-blue-800 hover:bg-gray-900">
+              Financiar mi proyecto
+            </a>
+          </Link>
+          <Link href="/Perfil">
+            <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded text-gray-50 hover:bg-blue-800 hover:bg-gray-900">
+              Panel de usuario
+            </a>
+          </Link>
+          <Link href="/user">
+            <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded text-gray-50 hover:bg-blue-800 hover:bg-gray-900">
+              Cerrar Sesion
+            </a>
+          </Link>
         </div>
       </div>
 
